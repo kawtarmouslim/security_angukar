@@ -24,6 +24,7 @@ import { UpdateEchantillonComponent } from './components/echantillon/update-echa
 import { HomeComponent } from './components/home/home.component';
 
 import {PlanificationComponent} from "./components/planification/planification.component";
+import {AuthentificationComponent} from "./components/authentification/authentification.component";
 
 
 
@@ -48,11 +49,9 @@ const routes: Routes = [
   { path: 'addAnalyse', component: AddAnalyseComponent },
   { path: 'addPlanification', component: AddPlanificationComponent },
   { path: 'updateSample/:id', component: UpdateEchantillonComponent },
-
   { path: '', component: HomeComponent },
-
-  { path: 'planification/all', component: PlanificationComponent }
-
+  { path: 'planification/all', component: PlanificationComponent },
+  { path: 'auth', component: AuthentificationComponent },
 
 ];
 

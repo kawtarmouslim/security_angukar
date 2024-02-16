@@ -9,8 +9,6 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SidebarItemsComponent } from './components/sidebar/sidebar-items/sidebar-items.component';
 import { AddPatientComponent } from './components/patient/add-patient/add-patient.component';
 import { AllPatientsComponent } from './components/patient/all-patients/all-patients.component';
-import {PatientService} from "./services/patient.service";
-
 import { AddUtilisateurComponent } from './components/utilitateur/add-utilisateur/add-utilisateur.component';
 import { UpdatePatientComponent } from './components/patient/update-patient/update-patient.component';
 import { AddAnalyseComponent } from './components/analyse/add-analyse/add-analyse.component';
@@ -36,6 +34,7 @@ import { PlanificationComponent } from './components/planification/planification
 import { AddPlanificationComponent } from './components/planification/add-planification/add-planification.component';
 import { UpdateEchantillonComponent } from './components/echantillon/update-echantillon/update-echantillon.component';
 import { HomeComponent } from './components/home/home.component';
+import { AuthentificationComponent } from './components/authentification/authentification.component';
 
 
 
@@ -67,7 +66,8 @@ import { HomeComponent } from './components/home/home.component';
     PlanificationComponent,
     AddPlanificationComponent,
     UpdateEchantillonComponent,
-    HomeComponent
+    HomeComponent,
+    AuthentificationComponent
 
   ],
 
